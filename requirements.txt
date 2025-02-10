@@ -1,4 +1,5 @@
 pandas
+python-dotenv
 streamlit
 langchain
 langchain-core

@@ -7,7 +7,6 @@ from llm_code import llm
 
 def remove_surrogate_characters(text):
     return re.sub(r'[\ud800-\udfff]', '', text)
-    # return text.encode('utf-16', 'surrogatepass').decode('utf-16', 'ignore')
 
 def process_post(file_path, processed_post_file_path="Dataset/processed_posts.json"):
     enriched_posts = []
